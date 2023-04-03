@@ -1,0 +1,31 @@
+html {
+    font-size: 23px;
+}
+body {
+    min-height: 100vh;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
+    background-color: #333;
+    color: whitesmoke;
+}
+a {
+    color: chartreuse;
+}
+
+a:hover {
+    color:black
+}
+
+a:visited {
+    color: darkcyan;
+}
+
+table, tr, th, td, caption{
+    border: 2px solid #eee;
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    padding: 0.4rem;
+}
